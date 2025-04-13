@@ -11,7 +11,7 @@ const recentProjects = [
     title: "Summer Campaign",
     description: "Social media campaign for summer product line launch featuring new apparel and accessories.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800",
-    status: "active",
+    status: "active" as "active" | "completed" | "pending",
     lastUpdated: "2h ago",
     teamSize: 5,
     collaborators: [
@@ -27,7 +27,7 @@ const recentProjects = [
     title: "Product Photography",
     description: "Professional photography session for the new tech gadget line. Includes studio setup and post-processing.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800",
-    status: "pending",
+    status: "pending" as "active" | "completed" | "pending",
     lastUpdated: "1d ago",
     teamSize: 3,
     collaborators: [
@@ -41,7 +41,7 @@ const recentProjects = [
     title: "Website Refresh",
     description: "Complete redesign of the company website with updated branding guidelines and improved UX/UI.",
     image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800",
-    status: "completed",
+    status: "completed" as "active" | "completed" | "pending",
     lastUpdated: "3d ago",
     teamSize: 4,
     collaborators: [
@@ -56,7 +56,7 @@ const recentProjects = [
     title: "Annual Report",
     description: "Design and layout for the company's annual report. Includes data visualization and executive summaries.",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800",
-    status: "active",
+    status: "active" as "active" | "completed" | "pending",
     lastUpdated: "5d ago",
     teamSize: 2,
     collaborators: [
